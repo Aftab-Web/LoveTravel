@@ -1,0 +1,77 @@
+@media only screen and (max-width:996px){
+    header nav ul{
+        display: none;
+        position: absolute;
+        top: 53px;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 0 1px 10px #EBEEF2;
+        width: 100%;
+        right: 0;
+    }
+    header button{
+        display: block;
+        background: transparent;
+        border: 1px solid #b1bac3;
+        padding: 10px 1.2rem;
+    }
+    .drop-menu1 {
+        position: relative;
+        top: -25px;
+        width: 100%;
+    }
+    .drop-menu2 {
+        position: relative;
+        top: -25px;
+        width: 100%;
+
+    }
+    .drop-menu3 {
+        position: relative;
+        top: -25px;
+        width: 100%;
+
+    }
+    .drop-menu4 {
+        position: relative;
+        top: -25px;
+        width: 100%;
+
+    }
+    .drop-menu5 {
+        position: relative;
+        top: -25px;
+        width: 100%;
+
+    }
+}
+@media only screen and (max-width:768px){
+    .banner .slide1{
+        height: 400px;
+    }
+    .banner .slide2{
+        height: 400px;
+    }
+    .top img{
+        position: relative;
+    }
+    .adventure .card{
+        margin-top: 80px;
+    }
+    .adventure .card .mid{
+        margin-top: -100px;
+    }
+    .promotion .container{
+        flex-flow: column;
+    }
+    .promotion .container .box{
+        margin: 1rem 0;
+    }
+    footer{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:360px){
+    header nav{
+        padding: 0;
+    }
+}
